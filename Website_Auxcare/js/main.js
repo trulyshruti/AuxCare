@@ -21,14 +21,14 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/blank", {templateUrl: "partials/blank.html", controller: "PageCtrl"})
     .when("/buttons", {templateUrl: "partials/buttons.html", controller: "PageCtrl"})
     .when("/flot", {templateUrl: "partials/flot.html", controller: "PageCtrl"})
-    .when("/forms", {templateUrl: "partials/forms.html", controller: "PageCtrl"})
+    .when("/forms", {templateUrl: "partials/forms_default.html", controller: "PageCtrl"})
     .when("/grid", {templateUrl: "partials/grid.html", controller: "PageCtrl"})
     .when("/morris", {templateUrl: "partials/morris.html", controller: "PageCtrl"})
     .when("/notifications", {templateUrl: "partials/notifications.html", controller: "PageCtrl"})
     .when("/panels-wells", {templateUrl: "partials/panels-wells.html", controller: "PageCtrl"})
     .when("/tables", {templateUrl: "partials/tables.html", controller: "PageCtrl"})
     .when("/typography", {templateUrl: "partials/typography.html", controller: "PageCtrl"})
-      .when("/choose-test", {templateUrl: "partials/choose_test.html", controller: "PageCtrl"})
+      .when("/choose-test", {templateUrl: "partials/prescribe-tests.html", controller: "PageCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
