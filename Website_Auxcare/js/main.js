@@ -28,6 +28,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/panels-wells", {templateUrl: "partials/panels-wells.html", controller: "PageCtrl"})
     .when("/tables", {templateUrl: "partials/tables.html", controller: "PageCtrl"})
     .when("/typography", {templateUrl: "partials/typography.html", controller: "PageCtrl"})
+      .when("/choose-test", {templateUrl: "partials/choose_test.html", controller: "PageCtrl"})
     // else 404
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
