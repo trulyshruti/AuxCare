@@ -38,9 +38,23 @@
       <file leaf-file-name="morris-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/plugins/morris/morris-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1845">
-              <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            <state vertical-scroll-proportion="-7.2909093" vertical-offset="1204" max-vertical-offset="1875">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.336" vertical-offset="3624" max-vertical-offset="4995">
+              <caret line="254" column="25" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+              <folding>
+                <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,11 +71,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="morris.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/morris.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.745098" vertical-offset="865" max-vertical-offset="1500">
+              <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68" vertical-offset="5205" max-vertical-offset="6120">
-              <caret line="385" column="72" selection-start-line="385" selection-start-column="72" selection-end-line="385" selection-end-column="72" />
+            <state vertical-scroll-proportion="-2.745098" vertical-offset="745" max-vertical-offset="6120">
+              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
@@ -80,11 +108,12 @@
         <option value="$PROJECT_DIR$/partials/tables.html" />
         <option value="$PROJECT_DIR$/partials/flot.html" />
         <option value="$PROJECT_DIR$/partials/forms.html" />
-        <option value="$PROJECT_DIR$/templates/navigation.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/partials/prescribe-tests.html" />
-        <option value="$PROJECT_DIR$/js/plugins/morris/morris-data.js" />
         <option value="$PROJECT_DIR$/partials/dashboard.html" />
+        <option value="$PROJECT_DIR$/js/plugins/morris/morris-data.js" />
+        <option value="$PROJECT_DIR$/partials/morris.html" />
+        <option value="$PROJECT_DIR$/templates/navigation.html" />
       </list>
     </option>
   </component>
@@ -670,12 +699,12 @@
       <option name="number" value="Default" />
       <updated>1449629559531</updated>
       <workItem from="1449629560114" duration="1276000" />
-      <workItem from="1449634535761" duration="14990000" />
+      <workItem from="1449634535761" duration="16019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16266000" />
+    <option name="totallyTimeSpent" value="17295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="113" width="1269" height="619" extended-state="0" />
@@ -942,26 +971,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/morris.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.88" vertical-offset="0" max-vertical-offset="1500">
-          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/prescribe-tests.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.835821" vertical-offset="375" max-vertical-offset="3315">
           <caret line="101" column="46" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65422887" vertical-offset="4103" max-vertical-offset="5085">
-          <caret line="256" column="42" selection-start-line="256" selection-start-column="42" selection-end-line="256" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -998,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugins/morris/morris-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1845">
-          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5" vertical-offset="330" max-vertical-offset="1035">
@@ -1016,13 +1021,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins/morris/morris-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2909093" vertical-offset="1204" max-vertical-offset="1875">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68" vertical-offset="5205" max-vertical-offset="6120">
-          <caret line="385" column="72" selection-start-line="385" selection-start-column="72" selection-end-line="385" selection-end-column="72" />
+        <state vertical-scroll-proportion="-2.745098" vertical-offset="745" max-vertical-offset="6120">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/morris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.745098" vertical-offset="865" max-vertical-offset="1500">
+          <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.336" vertical-offset="3624" max-vertical-offset="4995">
+          <caret line="254" column="25" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+          <folding>
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

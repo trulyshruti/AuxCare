@@ -3,59 +3,61 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            period: '2013 Q3',
+            baseline: 10687,
+            patientmetric: 4460,
+            optimal: 2028
+        },
+            {
+            period: '2013 Q3',
+            baseline: 8432,
+            patientmetric: 5713,
+            optimal: 1791
+        },
+            {
+            period: '2014 Q1',
+            baseline: 2666,
+            patient_metric: null,
+            optimal: 2647
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            period: '2014 Q2',
+            baseline: 2778,
+            patientmetric: 2294,
+            optimal: 2441
         }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            period: '2014 Q3',
+            baseline: 4912,
+            patientmetric: 1969,
+            optimal: 2501
         }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            period: '2014 Q4',
+            baseline: 3767,
+            patientmetric: 3597,
+            optimal: 5689
         }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            period: '2015 Q1',
+            baseline: 6810,
+            patientmetric: 1914,
+            optimal: 2293
         }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            period: '2015 Q2',
+            baseline: 5670,
+            patientmetric: 4293,
+            optimal: 1881
         }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            period: '2015 Q3',
+            baseline: 4820,
+            patientmetric: 3795,
+            optimal: 1588
         }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
-        }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            period: '2015 Q4',
+            baseline: 15073,
+            patientmetric: 5967,
+            optimal: 5175
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['baseline', 'patientmetric', 'optimal'],
+        labels: ['baseline', 'Patient Metric', 'Optimal'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -79,31 +81,31 @@ $(function() {
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            y: '2006',
+            y: 'Week 1',
             a: 100,
             b: 90
         }, {
-            y: '2007',
+            y: 'Week 2',
             a: 75,
             b: 65
         }, {
-            y: '2008',
+            y: 'Week 3',
             a: 50,
             b: 40
         }, {
-            y: '2009',
+            y: 'Week 4',
             a: 75,
             b: 65
         }, {
-            y: '2010',
+            y: 'Week 5',
             a: 50,
             b: 40
         }, {
-            y: '2011',
+            y: 'Week 6',
             a: 75,
             b: 65
         }, {
-            y: '2012',
+            y: 'Week 7',
             a: 100,
             b: 90
         }],
