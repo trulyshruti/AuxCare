@@ -53,16 +53,16 @@ $(document).ready(function() {
 $(function() {
 
     var data = [{
-        label: "Series 0",
+        label: "Gait Tracking",
         data: 1
     }, {
-        label: "Series 1",
+        label: "Voice Phonation",
         data: 3
     }, {
-        label: "Series 2",
+        label: "Balance Test",
         data: 9
     }, {
-        label: "Series 3",
+        label: "Finger Tapping",
         data: 20
     }];
 
@@ -1050,16 +1050,16 @@ $(function() {
     ];
 
     function euroFormatter(v, axis) {
-        return v.toFixed(axis.tickDecimals) + "€";
+        return v.toFixed(axis.tickDecimals);
     }
 
     function doPlot(position) {
         $.plot($("#flot-line-chart-multi"), [{
             data: oilprices,
-            label: "Oil price ($)"
+            label: "Phonation Threshold Pressure"
         }, {
             data: exchangerates,
-            label: "USD/EUR exchange rate",
+            label: "Phonation Threshold Flow",
             yaxis: 2
         }], {
             xaxes: [{
