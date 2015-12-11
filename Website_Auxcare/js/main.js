@@ -20,10 +20,10 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/blank", {templateUrl: "partials/blank.html", controller: "PageCtrl"})
     .when("/buttons", {templateUrl: "partials/buttons.html", controller: "PageCtrl"})
-    .when("/flot", {templateUrl: "partials/flot.html", controller: "PageCtrl"})
+    .when("/results", {templateUrl: "partials/flot.html", controller: "PageCtrl"})
     .when("/forms", {templateUrl: "partials/forms_default.html", controller: "PageCtrl"})
     .when("/grid", {templateUrl: "partials/grid.html", controller: "PageCtrl"})
-    .when("/morris", {templateUrl: "partials/morris.html", controller: "PageCtrl"})
+    .when("/additional_results", {templateUrl: "partials/morris.html", controller: "PageCtrl"})
     .when("/notifications", {templateUrl: "partials/notifications.html", controller: "PageCtrl"})
     .when("/panels-wells", {templateUrl: "partials/panels-wells.html", controller: "PageCtrl"})
     .when("/tables", {templateUrl: "partials/tables.html", controller: "PageCtrl"})
